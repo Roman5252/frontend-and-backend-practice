@@ -1,52 +1,106 @@
-
 <!DOCTYPE html>
-<html lamg = "ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Новости</title>
-        <style>
-            .small-text {
-        font-size: 12px;
-        font-weight: bold;}
-        </style>
-        <style>
-            .big-text {
-        font-size: 20px;
-        font-weight: bolder;}
-        </style>
-        <style>
-            .giant-text {
-        font-size: 40px;
-        font-weight: bolder;}
-        </style>
-    </head>
-    <body>
-        <div id="header">Хэдер</div>
-        <div id="menu">
-          <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="/index.html">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
-                    <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li> 
-                    <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
-                </ul>
-        </div>
-        <div id="content">
-            <p class="giant-text">Новости</p>
-            
-            <p class="big-text">Новость 1:</p>
-            <p class="small-text">32.13.0001 ну</p>
-            <p>Бла-бла-бла.</p>
-            
-            <p class="big-text">Новость 2:</p>
-            <p class="small-text">33.14.0002 почему бы</p>
-            <p>Бле-бле-бле.</p>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <header class="header">
+            <h1>Frontend & Backend Practice</h1>
+            <p>Практика веб-разработки: от идеи до реализации</p>
+        </header>
+        
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
 
-            <p class="big-text">Новость 3:</p>
-            <p class="small-text">34.15.0003 и нет?</p>
-            <p>Блю-блю-блю.</p>
+        <div class="content">
+            <h1 class="giant-text">Новости</h1>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <h2 class="big-text">Новость 1</h2>
+                    <p class="news-date">32.13.0001</p>
+                    <p>Бла-бла-бла. Важные события и обновления нашего проекта.</p>
+                </div>
+                
+                <div class="news-card">
+                    <h2 class="big-text">Новость 2</h2>
+                    <p class="news-date">33.14.0002</p>
+                    <p>Бле-бле-бле. Новые возможности и улучшения.</p>
+                </div>
+                
+                <div class="news-card">
+                    <h2 class="big-text">Новость 3</h2>
+                    <p class="news-date">34.15.0003</p>
+                    <p>Блю-блю-блю. Интересные факты и достижения.</p>
+                </div>
+            </div>
         </div>
-        <div id="footer">Футер</div>    
-    </body>
+
+        <footer class="footer">
+            <p>&copy; 2024 Frontend & Backend Practice. Все права защищены.</p>
+            <p>Телефон: <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практики</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <header class="header">
+            <h1>Frontend & Backend Practice</h1>
+            <p>Практика веб-разработки: от идеи до реализации</p>
+        </header>
+        
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h1 class="giant-text">Практики</h1>
+            
+            <div class="experience-section">
+                <div class="experience-card">
+                    <h3 class="experience-title">Frontend практика</h3>
+                    <p class="experience-desc">HTML, CSS, JavaScript, React - современные технологии фронтенд разработки.</p>
+                </div>
+                <div class="experience-card">
+                    <h3 class="experience-title">Backend практика</h3>
+                    <p class="experience-desc">Node.js, Express, базы данных - серверная разработка.</p>
+                </div>
+                <div class="experience-card">
+                    <h3 class="experience-title">UI/UX дизайн</h3>
+                    <p class="experience-desc">Создание удобных и красивых интерфейсов.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 Frontend & Backend Practice. Все права защищены.</p>
+            <p>Телефон: +7 (123) 456-78-90 | Email: info@example.com</p>
+        </footer>
+    </div>
+</body>
+</html></p>
+        </footer>
+    </div>
+</body>
 </html>

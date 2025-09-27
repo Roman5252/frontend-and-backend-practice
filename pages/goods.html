@@ -1,52 +1,59 @@
-
 <!DOCTYPE html>
-<html lamg = "ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Товары</title>
-        <style>
-            .small-text {
-        font-size: 12px;
-        font-weight: bold;}
-        </style>
-        <style>
-            .big-text {
-        font-size: 20px;
-        font-weight: bolder;}
-        </style>
-        <style>
-            .giant-text {
-        font-size: 40px;
-        font-weight: bolder;}
-        </style>
-    </head>
-    <body>
-        <div id="header">Хэдер</div>
-        <div id="menu">
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <header class="header">
+            <h1>Frontend & Backend Practice</h1>
+            <p>Практика веб-разработки: от идеи до реализации</p>
+        </header>
+        
+        <nav class="nav">
             <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="/index.html">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
-                    <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li> 
-                    <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
-                </ul>
-        </div>
-        <div id="content">
-            <p class="giant-text">Товары</p>
-            
-            <img src="../images/bronze_1-CwEPVxB1.jpg" alt="Фото товара" width="250" height="250">
-            <p class="big-text"> Секретный Завтрак:</p>
-            <p>5$</p>
-            
-            <img src="../images/gold_1-BG1okzhQ.jpg" alt="Фото товара" width="250" height="250">
-            <p class="big-text">Секретный Обед</p>
-            <p>150$.</p>
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
 
-            <img src="../images/diamond_1-BEKDFG5r.jpg" alt="Фото товара" width="250" height="250">
-            <p class="big-text">Секретный ужин</p>
-            <p>99999$.</p>
+        <div class="content">
+            <h1 class="giant-text">Товары</h1>
+            
+            <div class="goods-grid">
+                <div class="good-card">
+                    <img src="../images/bronze_1-CwEPVxB1.jpg" alt="Секретный Завтрак" class="good-image">
+                    <h2 class="big-text">Секретный Завтрак</h2>
+                    <p class="good-price">5$</p>
+                    <p>Идеальное начало дня для настоящих гурманов</p>
+                </div>
+                
+                <div class="good-card">
+                    <img src="../images/gold_1-BG1okzhQ.jpg" alt="Секретный Обед" class="good-image">
+                    <h2 class="big-text">Секретный Обед</h2>
+                    <p class="good-price">150$</p>
+                    <p>Эксклюзивное предложение для ценителей</p>
+                </div>
+                
+                <div class="good-card">
+                    <img src="../images/diamond_1-BEKDFG5r.jpg" alt="Секретный Ужин" class="good-image">
+                    <h2 class="big-text">Секретный Ужин</h2>
+                    <p class="good-price">99999$</p>
+                    <p>Премиум уровень для самых требовательных</p>
+                </div>
+            </div>
         </div>
-        <div id="footer">Футер</div>    
-    </body>
+
+        <footer class="footer">
+            <p>&copy; 2024 Frontend & Backend Practice. Все права защищены.</p>
+            <p>Телефон: +7 (909) 390-16-25 | Email: serega@baby.fox</p>
+        </footer>
+    </div>
+</body>
 </html>
